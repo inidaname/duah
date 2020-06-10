@@ -72,10 +72,17 @@ header .transMenu {
     justify-content: center;
 }
 
-.focus h1 {
+.focus h2 {
+    width: 80%;
     text-shadow: 2px 2px #0e0d0d98;
     font-size: 44px;
     color: #eee8dd;
+}
+
+.focus p {
+    color: #2b2828;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .imageDP {
@@ -84,6 +91,17 @@ header .transMenu {
 
 .logo {
     flex-grow: 1;
+}
+
+.logo h1 {
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+span[class*="logo-"] {
+    border: 1px solid #000;
+    word-spacing: -12px;
+    letter-spacing: 1px;
 }
 
 .menu {
